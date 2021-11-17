@@ -1,0 +1,19 @@
+OPEN COMMAND PROMPT
+
+CD INTO PROJECT: C:\Users\beech\Documents\Graduate_School\CS6100\SafeMap
+
+Set up and run virtual environment:
+
+py -3 -m venv venv
+
+venv\Scripts\activate
+
+RUN IT
+set FLASK_APP=(appyouwanttorun).py
+
+flask run
+
+(if you want it to be publicly available and trust ppl around u)
+flask run --host=0.0.0.0
+
+*it gives you a little HTTP site you put into your browser to launch
